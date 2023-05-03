@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap');
+
+body{
+    background-image: linear-gradient(to left top,#B67ED6,#38424C );
+}
+
+h1.ex1{
+    position:relative;
+    right:20px;
+    animation: slideinout 15s linear infinite ;
+}
+@keyframes slideinout{
+    0% {
+        right: 0%;
+    }
+    50% {
+        right: 77%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+.h1{
+    color:#ffffff;
+    margin-top: 20px;
+    overflow: hidden;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.image{
+    max-width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    margin-right: 18%;
+}
+
+img{
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 20px;
+    border: solid  rgb(201, 167, 235) 3.5px;
+}
+
+.box button {
+    padding: 20px 0;
+    width: 350px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(57, 6, 77);
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+    box-shadow: 0 5px 12px rgb(0 0 0 / 50%);
+    font-weight:600;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgb(57 6 77 / 0.1);
+}
+.box {
+    margin-right: 15%;
+    margin-top:15px; 
+}
+
+.info{
+    margin-top: -630px;
+    background-color:   rgba(245, 246, 250,0.5);
+    width: 550px;
+    height: 590px;
+    padding-top: 30px;
+    margin-right: 700px;
+    border-radius: 10px ;
+    font-family: 'Cairo', sans-serif;
+}
+
+.information{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.details{
+    font-size:20px ;
+    padding-right: 40px;
+    line-height: 40px;
+}
